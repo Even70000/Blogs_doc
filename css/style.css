@@ -1,0 +1,357 @@
+body{
+    margin:0;
+    padding:0;
+}
+.melding{
+    margin:auto;
+    font-size:larger;
+}
+#meldingSucces{
+    text-align:center;
+    color:green;
+}
+#meldingErorr{
+    text-align:center;
+    color:red;
+}
+/* ////////////navbar mainmenu */
+#navbarContainer{
+ border:solid;
+ height:10rem;
+ background-color:brown;
+}
+#navbarContainerTwo{
+    border:solid;
+    border:solid;
+    height:3rem;
+    margin:auto;
+    margin-top:6rem;
+    background-color:lightgray;
+}
+#blogsContactPageLinkBox{
+    /* border:solid; */
+    width:30%;
+    display:inline-block;
+    position:absolute;
+}
+#blogsContactPageLinkBoxTwo{
+    /* border:solid; */
+    margin-top:1rem;
+}
+.blogContactPageLink{
+    /* border:solid; */
+    text-decoration: none;
+    margin-left:10%;
+    color:black;
+}
+.blogContactPageLink:hover{
+    background-color:white;
+    font-size:large;
+    border-radius:15%;
+}
+#regestratieLoginPageLinkBox{
+    /* border:solid; */
+    width:30%;
+    display:inline-block;
+    position:absolute;
+    margin-left:55%;
+}
+#regestratieLoginPageLinkBoxTwo{
+    /* border:solid; */
+    width:40%;
+    text-align:center;
+    margin-left:50%;
+    margin-top:1rem;
+}
+.registeerLoginPageLink{
+    /* border:solid; */
+    text-decoration: none;
+    margin-left:10%;
+    color:black;
+}
+.registeerLoginPageLink:hover{
+    background-color:white;
+    font-size:large;
+    border-radius:15%;
+}
+/* ////////////////////////////////
+============================mainMenuLid css */
+#mainMenusLidContainer{
+    border:solid;
+    height:5rem;
+    background-color:brown;
+}
+#mainMenusLidContainerTwo{
+    /* border:solid;*/
+    margin-top:3rem; 
+    height:3rem;
+}
+#mainMenusLidBox{
+  /* border:solid; */
+  background-color:lightgray;
+  
+}
+.blogsLoguit{
+  /* border:solid; */
+  text-decoration: none;
+  color:black;
+  margin-left:5rem;
+}
+.blogsLoguit:hover{
+    background-color:white;
+    font-size:large;
+    border-radius:15%;
+}
+/* ========================================
+=======================================dashboard css */
+#adminMenuContainer{
+    border:solid;
+    height:5rem;
+    background-color:brown;
+}
+#adminMenuContainerTwo{
+    margin-top:3rem; 
+    height:3rem;
+}
+#adminMenuBox{
+    background-color:lightgray;
+}
+.dashboardLoguit{
+    text-decoration: none;
+    color:black;
+    margin-left:5rem;
+}
+.dashboardLoguit:hover{
+    background-color:white;
+    font-size:large;
+    border-radius:15%;
+}
+/* =========================================
+=====================================blogs css */
+#blogsContainer{
+    /* border:solid; */
+    width:90%;
+    margin:auto;
+}
+#blogsContainerTwo{
+    border:solid;
+    border-color:white;
+    /* height:35rem; */
+    width:80%;
+    margin:auto;
+    box-shadow:2px 2px 5px 5px lightgray;
+}
+#blogsBoxOne{
+    /* border:solid; */
+    width:90%;
+    margin:auto;
+    padding:1rem;
+    margin-top:1rem;
+    border-radius:0.5rem;
+    box-shadow:1px 1px 1px lightgray;
+  
+}
+#blogsBoxOne:hover{
+   box-shadow:0px 0px 10px lightgray;
+}
+#blogsBoxTwo{
+    /* border:solid; */
+    width:80%;
+    margin-left:1rem;
+   
+}
+#blogsTitelOnderwerpDatum{
+    text-decoration:none;
+    color:black;
+ 
+}
+/* ===================================
+=================================blog inhoud */
+#blogInhoudContainer{
+    border:solid;
+    width:80%;
+    margin:auto;
+    border-color:white;
+}
+#blogInhoudContainerTwo{
+    border:solid;
+    width:80%;
+    margin:auto;
+    border-color:white;
+}
+#blogInhoudBox{
+   border:solid;
+   width:97%;
+   margin:auto;
+   border-color:white;
+}
+#blogInhoudBoxOne{
+   border:solid;
+   border-color:white;
+}
+#blogInhoudBoxTwo{
+  border:solid;
+  border-color:white;
+}
+#commentaarContainer{
+  border:solid;
+  margin-top:0.5rem;
+  height:16rem;
+  border-color:lightgray;
+}
+#commentaarContainerTwo{
+  border:solid;
+  height:15rem;
+  margin-left:1rem;
+  border-color:white;
+}
+#commentaarBox{
+  border:solid;
+  height:15rem;
+  margin-left:1rem;
+  border-color:white;
+}
+#commentaarCommentaarBox{
+  border:solid;
+  height:10rem;
+  overflow:scroll;
+  border-color:white;
+}
+#comPara{
+    text-align:center;
+    font-size:larger;
+}
+#warningPara{
+    color:red;
+}
+.meningBtn{
+  font-size:large;
+}
+/* ===========================
+===============================contact css Login css Registratie css */
+#contactContainer{
+   border:solid;
+   width:70%;
+   margin:auto;
+   border-color:white;
+}
+#contactContainerTwo{
+   border:solid;
+   width:60%;
+   margin:auto;
+   border-color:white;
+}
+#contactContainerThree{
+  border:solid;
+  width:50%;
+  margin:auto;
+  margin-top:10rem;
+  font-size:large;
+  text-align:center;
+  border-color:white;
+}
+
+/* ------------------------------
+------------------------------dashboard css */
+#dashboardContainer{
+ border:solid;
+ width:80%;
+ margin:auto;
+ border-color:lightgray;
+ border-color:white;
+}
+#dashboardContainerTwo{
+ border:solid;
+ width:95%;
+ margin:auto;
+ margin-top:5rem;
+ border-color:lightgray;
+ border-color:white;
+}
+#dashboardBoxOne{
+  border:solid;
+  width:95%;
+  margin:auto;
+  border-color:lightgray;
+}
+#dashboardBoxOneLink{
+ border:solid;
+ width:30%;
+ display:inline-block;
+ position:absolute;
+ text-decoration:none;
+ color:black;
+ height:10rem;
+ text-align:center;
+ background-color:cadetblue;
+ border-color:lightgray;
+}
+#dashboardBoxOneLink:hover{
+    background-color:white;
+    box-shadow:0px 0px 15px lightgray;
+    font-size:larger;
+}
+#dashboardBoxOneLinkPara{
+    margin-top:3rem;
+}
+#dashboardBoxOneLinkTwo{
+ border:solid;
+ width:40%;
+ height:10rem;
+ display:inline-block;
+ position:absolute;
+ margin-left:32%;
+ text-decoration:none;
+ color:black;
+ text-align:center;
+ border-color:lightgray;
+}
+#dashboardBoxOneLinkTwo:hover{
+    box-shadow:0px 0px 15px lightgray;
+}
+#dashboardBoxTwo{
+    border:solid;
+    width:95%;
+    margin:auto;
+    margin-top:10rem;
+    text-align:center;
+    border-color:lightgray;
+}
+#dashboardBoxTwoTable{
+    border:solid;
+    width:100%;
+    margin:auto;
+    border-color:lightgray;
+}
+/* ===============================================
+====================================profile css */
+#profileContainer{
+    /* border:solid; */
+    width:80%;
+    margin-left:3rem;
+}
+#profileContainerTwo{
+   /* border:solid; */
+   width:80%;
+   margin-left:3rem;
+   margin-top:5rem;
+}
+#pasfotoContainer{
+   border:solid;
+   width:12%;
+   height:7rem;
+   display:inline-block;
+   background-color:lightgray;
+   border-radius:15rem;
+   text-align:center;
+}
+.fotoPara{
+    margin-top:3rem;
+}
+#gegevensContainer{
+   /* border:solid; */
+   width:30%;
+   display:inline-block;
+   margin-left:1rem;
+   position:absolute;
+}
